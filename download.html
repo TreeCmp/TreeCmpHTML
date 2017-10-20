@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+        <meta charset="utf-8">
+        <meta name="description" content="TreeCmp home page">
+        <meta name="author" content="co-authored by Damian Bogdanowicz, Krzysztof Giaro, Tomasz Goluch">
+
+        <title>TreeCmp: Comparison of Trees in Polynomial Time</title>
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdn.shopify.com/s/files/1/0691/5403/t/139/assets/style.scss.css" />
+
+        <!-- Custom fonts -->        
+
+        <link href="https://fonts.googleapis.com/css?family=Advent+Pro:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Cinzel Decorative:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pompiere:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+
+        <!-- Custom styles-->
+        <link href="css/treecmp.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">TreeCmp</div>
+    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">COMPARISON OF TREES IN POLYNOMIAL TIME</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">TreeCmp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="WEB">Application</a>
+            </li>            
+            <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="download.html">Download</a>
+            </li>
+            <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="sources.html">Sources</a>
+            </li>
+            <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+            </li>
+            <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container">
+
+      <div class="bg-faded p-4 my-4">
+        <hr class="divider">
+        <h2 class="text-center text-lg text-uppercase my-0">Download TreeCmp
+        </h2>
+        <hr class="divider">
+        <p>
+          TreeCmp is a command line tool written in pure Java, can be download as a zip archive. The following versions of library are available:</p>
+          <ul>
+            <li><a target="_blank" href="treecmp/bin/TreeCmp_v1.0-b291.zip" >TreeCmp_v1.0-b291.zip - requires Java 1.5 (aka Java 5),</a></li>
+            <li><a target="_blank" href="treecmp/bin/TreeCmp_v1.1-b308.zip" >TreeCmp_v1.1-b308.zip - contains implementation of a new metric - the Matching Pair (MP) distance, requires Java 1.6 (aka Java 6),</a></li>
+            <li><a target="_blank" href="treecmp/bin/TreeCmp_v1.2-b1.zip" >TreeCmp_v1.2-b1 - contains implementation of a new metric - the MAST (MT) and UMAST (UM) distance, requires Java 1.7 (aka Java 7).</a></li>
+          </ul>
+        </p>
+        <p>
+          TreeCmp is provided together with a short manual <a target="_blank" href="doc/TreeCmp_manual.pdf" >TreeCmp_manual.pdf</a>.
+          In order to unpack the file any software supporting zip compression, for example free software 7-zip (<a target="_blank" href="http://www.7-zip.org/" >http://www.7-zip.org/</a>), can be used.
+        </p>
+        <p>
+            The WEB/Standalone version of application based on Spring framework and can be download as:
+            <ul>
+              <li><a target="_blank" href="treecmp/bin/TreeCmpWEB_v1.0-b1.war.zip" >TreeCmpWAR_v1.0-b1.war - WEB application contains GUI, requires Java 1.7 (aka Java 7),</a></li>
+              <li><a target="_blank" href="treecmp/bin/TreeCmpWEB_v1.0-b1.jar.zip" >TreeCmpWAR_v1.0-b1.jar - standalone version of WEB application, requires Java 1.7 (aka Java 7)</a></li>
+            </ul>
+        </p>
+        <p>
+          For more details about the MS and MC metrics see related pages:
+          <ul>
+            <li><a href="msdist/index.html" >Matching Split metric</a></li>
+            <li><a href="mcdist/index.html" >Matching Cluster metric</a></li>
+          </ul>
+        </p>
+      </div>
+
+    <!-- /.container -->
+
+    <footer class="bg-faded text-center py-5">
+      <div class="container">
+        <p class="m-0">Gdansk University of Technology &copy; 2017</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.js"></script>
+
+  </body>
