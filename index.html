@@ -7,7 +7,7 @@
         <meta name="description" content="TreeCmp home page">
         <meta name="author" content="co-authored by Damian Bogdanowicz, Krzysztof Giaro, Tomasz Goluch">
 
-        <title>TreeCmp: Comparison of Trees in Polynomial Time</title>
+        <title>TreeCmp 2.0 - WEB edition</title>
 
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" />
@@ -91,7 +91,7 @@
             <div class="carousel-item text-huge">
               <img class="d-block img-fluid w-100" src="img/slide-2.png" alt="">
               <div class="carousel-caption d-none d-md-block">
-                <p class="text-shadow text-slide">eleven metrics</p>
+                <p class="text-shadow text-slide">twelve metrics</p>
 <!--                 <p class="text-shadow">- five for unrooted (Matching Split, Robinson-Foulds, path difference, quartet, MAST)</p>
 <p class="text-shadow">- five for rooted trees (Matching Cluster, Robinson-Foulds, Nodal Splitted with L2 norm, Triples, UMAST)</p> -->
               </div>
@@ -127,7 +127,8 @@
           <h1 class="my-2">What is TreeCmp?</h1>
         </div>
 
-      	<p>The TreeCmp application was designed to compute distances between arbitrary (not necessary binary) phylogenetic trees. Offers an implementation of metrics with better computational efficiency than available tools, allowing to compare trees with a large number of leaves. </p>
+      	<p>The TreeCmp application was designed to compute distances between arbitrary phylogenetic trees. 
+      		TreeCmp is the first implementation of Matching Split/Cluster/Pair metrics and the first efficient and convenient implementation of Nodal Splitted. It allows to compare relatively large trees. Offers an implementation of metrics with better computational efficiency than available tools, allowing to compare trees with a large number of leaves. </p>
       </div>
       <div class="bg-faded p-4 my-4">
 
@@ -135,24 +136,25 @@
         <h2 class="text-center text-lg text-uppercase my-0">rich collection of available phylogenetic metrics</h2>
         <hr class="divider">
         <!-- <img class="img-fluid float-left mr-4 d-none d-lg-block" src="img/intro-pic.jpg" alt=""> -->
-        <p>TreeCmp implements eleven metrics that can be calculated in polynomial time for arbitrary (not only bifurcating) trees.</p>
-        <p>Six metrics for rooted trees which are similar to them:</p>
-        <ul>
-        	<li>Matching Pair metric</li>
-        	<li>Nodal Splitted metric with L2 norm,</li>
-        	<li>Matching Cluster metric,</li>
-        	<li>Triples metric,</li>
-        	<li>Rooted maximum agreement subtree distance,</li>
-        	<li>Robinson-Foulds metric based on clusters.</li>
-        </ul>        
-        <p>Five metrics for unrooted trees:
-        <ul>
-        	<li>Path difference distance,</li>
-        	<li>Matching Split distance,</li>
-        	<li>Robinson-Foulds distance,</li>
-        	<li>Unrooted maximum agreement subtree distance,</li>
-        	<li>Quartet distance.</li>
-        </ul>
+        <p>The TreeCmp implements twelve metrics that can be calculated in polynomial time for arbitrary (not only bifurcating) trees.</p>
+      		<p>Five metrics for unrooted trees:</p>
+      		<ul>
+      			<li> Matching Split</li>
+      			<li> Robinson-Foulds</li>
+      			<li> Path Difference</li>
+      			<li> Quartet</li>
+      			<li> Unrooted Maximum Agreement Subtree</li>
+      		</ul>
+      	    <p>Seven metrics for rooted trees</p>
+      		<ul>
+      			<li> Matching Cluster</li>
+      			<li> Robinson-Foulds cluster</li>
+      			<li> Nodal Splitted</li>
+      			<li> Triple</li>
+      			<li> Matching Pair</li>
+      			<li> Rooted Maximum Agreement Subtree</li>
+      			<li> Cophenetic</li>    
+      		</ul>  			
       </div>
 
       <div class="bg-faded p-4 my-4">
@@ -165,7 +167,7 @@
       		<li>overlapping pair comparison mode - every two neighboring trees in the input file are compared,</li>
 	      	<li>window comparison mode - every two trees within a window with a specified size are compared,</li>
 	      	<li>matrix comparison mode - every two trees in the input file are compared,</li>
-	      	<li>single tree to all trees mode - each tree in the input file is compared to the single referenced tree.</li>
+	      	<li>referential trees to all input trees mode - each tree in the input file is compared to all referenced trees.</li>
 	      </ul>
 	  </div>      
 
@@ -175,6 +177,19 @@
         <hr class="divider">
         <p>We also propose a way to obtain normalized distances between trees, which indicate whether two trees are more dissimilar than two random trees with the same number of leaves according to a given metric. Application allow summarizing for each metric such parameters as: number of compared trees, average value, standard deviation, minimum and the maximum value</p>
       </div>
+
+      <div class="bg-faded p-4 my-4">
+      	<hr class="divider">
+      	<h2 class="text-center text-lg text-uppercase my-0">three products</h2>
+      	<hr class="divider">
+
+      	<p>Treecmp is available as three products:</p>
+      	<ul>
+      		<li>Command line tool/Library (.jar),</li>
+	      	<li>Spring framework Web Application (.war),</li>
+	      	<li>Standalone java application with WEB GUI based on Spring framework (.jar)</li>
+	      </ul>
+	  </div>  
 
     </div>
     <!-- /.container -->
