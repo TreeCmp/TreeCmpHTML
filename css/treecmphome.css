@@ -78,3 +78,7 @@ hr.divider {
   color: white;
   font-family: sans-serif;
 }
+
+.syntaxhighlighter {
+    background-color: rgba(0, 255, 255, 0.1);
+}
