@@ -1,2 +1,2 @@
-# TreeCmpHTML
-TreeCmp project home page
+# Visual TreeCmp
+Visual TreeCmp project home page
