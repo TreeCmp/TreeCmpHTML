@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <meta name="description" content="Visual TreeCmp home page">
-        <meta name="author" content="co-authored by Damian Bogdanowicz, Krzysztof Giaro, Tomasz Goluch">
+        <meta name="author" content="co-authored by Tomasz Goluch, Damian Bogdanowicz, Krzysztof Giaro">
 
         <title>Visual TreeCmp: Comprehensive Comparison of Phylogenetic Trees on the Web</title>
 
@@ -91,7 +91,7 @@
             <div class="carousel-item text-huge">
               <img class="d-block img-fluid w-100" src="img_WEB/slide-2.png" alt="">
               <div class="carousel-caption d-none d-md-block">
-                <p class="text-shadow text-slide">twelve metrics</p>
+                <p class="text-shadow text-slide">eighteen metrics</p>
 <!--                 <p class="text-shadow">- five for unrooted (Matching Split, Robinson-Foulds, path difference, quartet, MAST)</p>
 <p class="text-shadow">- five for rooted trees (Matching Cluster, Robinson-Foulds, Nodal Splitted with L2 norm, Triples, UMAST)</p> -->
               </div>
@@ -136,25 +136,31 @@
         <h2 class="text-center text-lg text-uppercase my-0">rich collection of available phylogenetic metrics</h2>
         <hr class="divider">
         <!-- <img class="img-fluid float-left mr-4 d-none d-lg-block" src="img_WEB/intro-pic.jpg" alt=""> -->
-        <p>The Visual TreeCmp implements twelve metrics that can be calculated in polynomial time for arbitrary (not only bifurcating) trees.</p>
-      		<p>Five metrics for unrooted trees:</p>
+        <p>The Visual TreeCmp implements eighteen metrics that can be calculated in polynomial time for arbitrary (not only bifurcating) trees.</p>
+          <p>Eleven metrics for rooted trees</p>
+          <ul>
+            <li> Triples metric</li>
+            <li> Robinson-Foulds metric based on clusters</li>
+            <li> Matching Pair metric</li>
+            <li> Nodal Splitted metric with L2 norm</li>
+            <li> Matching Cluster metric</li>
+            <li> Rooted maximum agreement subtree distance</li>
+            <li> Cophenetic metric with L2 norm</li>
+            <li> Robinson-Foulds weighted metric based on clusters</li>
+            <li> Nodal Splitted weighted metric with L2 norm</li>
+            <li> Geodesic rooted distance </li>
+            <li> Cophenetic weighted metric with L2 norm</li>
+          </ul> 
+      		<p>Seven metrics for unrooted trees:</p>
       		<ul>
-      			<li> Matching Split</li>
-      			<li> Robinson-Foulds</li>
-      			<li> Path Difference</li>
-      			<li> Quartet</li>
-      			<li> Unrooted Maximum Agreement Subtree</li>
-      		</ul>
-      	    <p>Seven metrics for rooted trees</p>
-      		<ul>
-      			<li> Matching Cluster</li>
-      			<li> Robinson-Foulds cluster</li>
-      			<li> Nodal Splitted</li>
-      			<li> Triple</li>
-      			<li> Matching Pair</li>
-      			<li> Rooted Maximum Agreement Subtree</li>
-      			<li> Cophenetic</li>    
-      		</ul>  			
+      			<li> Quartet distance</li>
+      			<li> Path difference distance</li>
+      			<li> Robinson-Foulds distance</li>
+      			<li> Matching Split distance</li>
+      			<li> Unrooted maximum agreement subtree distance</li>
+            <li> Robinson-Foulds weighted distance</li>
+            <li> Geodesic unrooted distance</li>
+      		</ul> 			
       </div>
 
       <div class="bg-faded p-4 my-4">
